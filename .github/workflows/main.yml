@@ -11,7 +11,7 @@ env:
   CONTAINER_NAME: demo-app
   ECS_SERVICE: demo_service
   ECS_TD: .github/workflows/td.json
-  TERRAFORM_CLI_PATH: /usr/local/bin/terraform
+  TERRAFORM_CLI_PATH: /home/pawan/linux/demo
 jobs:
   build:
     runs-on: ubuntu-latest
