@@ -39,6 +39,4 @@ jobs:
       - name: Terraform Init
         run: terraform init
       - name: Creating ECR
-        run: |
-          cd erc
-          terraform plan
+        run: terraform plan
